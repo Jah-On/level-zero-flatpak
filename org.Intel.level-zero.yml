@@ -2,7 +2,7 @@ id:              org.Intel.level-zero
 branch:          master
 runtime:         org.freedesktop.Platform
 runtime-version: "24.08"
-sdk:             org.freedesktop.sdk
+sdk:             org.freedesktop.Sdk
 
 finish-args:
 -   "--share=ipc"
