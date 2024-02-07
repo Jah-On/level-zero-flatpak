@@ -1,21 +1,10 @@
-id:              org.kde.krdp
+id:              org.Intel.level-zero
 branch:          master
-runtime:         org.kde.Platform
-runtime-version: "6.6"
-sdk:             org.kde.Sdk
-
-command: krdpserver
-tags:
--   nightly
-desktop-file-name-suffix: " (Nightly)"
+runtime:         org.freedesktop.freedesktop-sdk
+runtime-version: "24.08"
 
 finish-args:
 -   "--share=ipc"
--   "--share=network"
 -   "--device=all"
--   "--socket=x11"
--   "--socket=wayland"
--   "--filesystem=home:ro"
--   "--env=QT_LOGGING_DEBUG=*.debug=true qt.qpa.input*.debug=false"
 
 add-extensions: {}
